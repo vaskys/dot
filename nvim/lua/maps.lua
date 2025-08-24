@@ -40,6 +40,7 @@ map("n", "gD", "<CMD>lua vim.lsp.buf.declaration()<CR>")
 map("n", "gt", "<CMD>lua vim.lsp.buf.type_definition()<CR>")
 map("n", "K", "<CMD>lua vim.lsp.buf.hover()<CR>")
 map("n","R","<CMD>lua vim.lsp.buf.rename()")
+map("n","L","<CMD>lua vim.diagnostic.open_float()<CR>")
 
 -- Previous buffer
 map("n", "<Tab>", "<CMD>b#<CR>")
