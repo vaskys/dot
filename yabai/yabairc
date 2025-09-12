@@ -57,7 +57,8 @@ yabai -m rule --add app="^engine$" manage=off
 yabai -m rule --add app="^editor$" manage=off
 yabai -m rule --add app="^Ryujinx$" manage=off
 yabai -m rule --add app="^Kitty$" manage=on
-yabai -m rule --add app="^FOREN$" manage=on
+yabai -m rule --add app="^Calculator$" manage=off
+yabai -m rule --add app="^App$" manage=off
 
 #borders active_color=0xffff0000 width=5.0 &
 echo "yabai configuration loaded.."
