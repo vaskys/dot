@@ -21,5 +21,5 @@ function yy
     end
 end
 
-bind \cp yy
+#bind \cp yy
 bind \e\[99\;5u yy

@@ -62,6 +62,5 @@ map("n", "<Leader>dr", "<cmd>lua require'dap'.run_last()<CR>")
 map("v", "u", "<Nop>")
 map("v", "U", "<Nop>")
 
-
-
-
+--fuck cmd history
+map("n", "q:", "<Nop>")
