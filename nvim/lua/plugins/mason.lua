@@ -1,13 +1,20 @@
 return {
   {
-    "https://github.com/jay-babu/mason-nvim-dap.nvim",
-    dependencies = {
-      "williamboman/mason.nvim",
-      "https://github.com/mfussenegger/nvim-dap"
-    },
+    "jay-babu/mason-nvim-dap.nvim",
     opts = {
-      handles = {},
-    }
+      handlers = {},
+      automatic_installation = {
+      },
+      ensure_installed = {
+        "bash",
+        "codelldb",
+        "python",
+      },
+    },
+    dependencies = {
+      "mfussenegger/nvim-dap",
+      "williamboman/mason.nvim",
+    },
   },
   {
     "williamboman/mason-lspconfig.nvim",
@@ -15,7 +22,7 @@ return {
       -- list of servers for mason to install
       ensure_installed = {
         "pyright",
-        "clangd"
+        "clangd",
       },
     },
     dependencies = {
